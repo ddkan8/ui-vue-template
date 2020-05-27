@@ -1,7 +1,7 @@
 {
-  "name": "gc-template",
+  "name": "<%= projectName %>",
   "version": "1.0.0",
-  "description": "A vue admin template provided by UED",
+  "description": "<%= description %>",
   "author": "Ueder",
   "license": "MIT",
   "private": true,
