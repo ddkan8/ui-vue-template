@@ -23,7 +23,7 @@ module.exports = {
   themeColors: ['#007aff', '#41C68F', '#FF7575'],
 
   // 默认主题色
-  themeDefault: '#235',
+  themeDefault: '<%= primaryColor %>',
 
   // 图表色
   // chartseColors: ['#6a71e6', '#3e8ef7', '#2dbae7', '#61D2FE', '#2AC59E', '#49DE94', '#FF666B', '#FFCD17', '#9363F7'],
