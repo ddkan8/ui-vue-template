@@ -23,13 +23,13 @@ module.exports = {
   themeColors: ['#007aff', '#41C68F', '#FF7575'],
 
   // 默认主题色
-  themeDefault: '<%= primaryColor %>',
+  themeDefault: '<%= themeColor %>',
 
   // 图表色
   // chartseColors: ['#6a71e6', '#3e8ef7', '#2dbae7', '#61D2FE', '#2AC59E', '#49DE94', '#FF666B', '#FFCD17', '#9363F7'],
 
   // 布局类型【F形布局：layout-f】，【T形布局：layout-t】
-  layoutType: 'layout-f',
+  layoutType: '<%= layoutType %>',
 
   // 是否需要可关闭选项卡
   tagsView: true,
@@ -38,5 +38,5 @@ module.exports = {
   layoutTransiton: false,
 
   // 框架风格【默认主题：default】，【浅色主题：light】
-  layoutStyle: 'default'
+  layoutStyle: '<%= layoutStyle %>'
 }
